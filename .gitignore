@@ -1,0 +1,44 @@
+# taken from https://github.com/github/gitignore
+
+## Intellij ###################################################################
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+## Eclipse ####################################################################
+.metadata
+bin/
+tmp/
+*.tmp
+.settings/
+.loadpath
+.tern-project
+.springBeans
+.factorypath
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+## Maven ######################################################################
+target/
+**/target/
+release.propertie
+
+## Mac ############################################################
+.DS_Store
+/output/
