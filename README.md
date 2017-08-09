@@ -10,17 +10,21 @@ Prerequisites
 -------------
 * Install and config Maven (http://maven.apache.org/download.cgi, download apache-maven-3.3.3-bin.tar.gz or above)
 * Install Java 1.8
-* Install Chrome driver and IE driver
+* Install Chrome driver
 
 * Optional -- Install cucumber execution terminal with color (https://github.com/adoxa/ansicon/downloads, download ansi160.zip  --follow its read me)
 * Optional -- Install eclipse cucumber feature file editor which can highlight Gherkin key word
  
+ 
 Setup
 -----
 Import the source code as Maven project, run "mvn clean install" to install maven dependency.
-stash repository:  https://vinoth85@bitbucket.org/vinoth85/uiautomation.git
 
-Do git clone https://vinoth85@bitbucket.org/vinoth85/uiautomation.git
+Use the below Url and command if you are using Bitbucket.
+#stash repository: 
+ https://vinoth85@bitbucket.org/vinoth85/uiautomation.git
+#To clone the repository
+git clone https://vinoth85@bitbucket.org/vinoth85/uiautomation.git
 
 Framework structure
 -------------
@@ -35,21 +39,25 @@ Framework structure
 
 
 Execute test scenarios
------
+----------------------
 To execute tests, execute one of the following commands: 
 
+To run test as a standalone Junit:
+---------------------------------
 Go to RunCukesTest.java and run as junit
 
+To run using maven:
+------------------
 * mvn test -DBrowser="chrome"
 
 * mvn test
 
-* mvn test -Dcucumber.options="--tags @search" 
--- execute specified test scenarios by defined by tags
+#To execute specified test scenarios by tags:
+* mvn test -Dcucumber.options="--tags @search"
 
 
 Cucumber report
------
+---------------
 After executing tests, navigate to below folder to check pretty cucumber html reports, screenshot is captured if scenario marked as failed: 
 
 /Target/healthdirect-cucumber-report
