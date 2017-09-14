@@ -1,4 +1,4 @@
-package com.healthdirect.ui.pages;
+package com.domain.ui.pages;
 
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;

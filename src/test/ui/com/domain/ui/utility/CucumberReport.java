@@ -1,4 +1,4 @@
-package com.healthdirect.ui.utility;
+package com.domain.ui.utility;
 
 import net.masterthought.cucumber.ReportBuilder;
 import org.apache.velocity.exception.VelocityException;
@@ -11,7 +11,7 @@ import java.util.List;
 public class CucumberReport {
 
     public static void generateReport() throws VelocityException, IOException {
-        File reportOutputDirectory = new File("target/healthdirect-cucumber-report");
+        File reportOutputDirectory = new File("target/domain-cucumber-report");
         List<String> list = new ArrayList<String>();
         list.add("target/cucumber-json-report.json");
 

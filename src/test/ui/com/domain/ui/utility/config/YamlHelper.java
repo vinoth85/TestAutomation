@@ -1,4 +1,4 @@
-package com.healthdirect.ui.utility.config;
+package com.domain.ui.utility.config;
 
 import org.yaml.snakeyaml.Yaml;
 

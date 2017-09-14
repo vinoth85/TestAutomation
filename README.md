@@ -53,13 +53,13 @@ To run using maven:
 * mvn test
 
 #To execute specified test scenarios by tags:
-* mvn test -Dcucumber.options="--tags @search"
+* mvn test -Dcucumber.options="--tags @navigation" -DBrowser="chrome"
 
 
 Cucumber report
 ---------------
 After executing tests, navigate to below folder to check pretty cucumber html reports, screenshot is captured if scenario marked as failed: 
 
-/Target/healthdirect-cucumber-report
+/Target/domain-cucumber-report
 * feature-overview.html
 * tag-overview.html
