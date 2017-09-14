@@ -1,7 +1,7 @@
-package com.healthdirect.ui.steps;
+package com.domain.ui.steps;
 
-import com.healthdirect.ui.config.DriverHelper;
-import com.healthdirect.ui.utility.config.ResourceManager;
+import com.domain.ui.config.DriverHelper;
+import com.domain.ui.utility.config.ResourceManager;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 

@@ -1,7 +1,7 @@
-package com.healthdirect.ui.config;
+package com.domain.ui.config;
 
-import com.healthdirect.ui.utility.CucumberReport;
-import com.healthdirect.ui.utility.config.ResourceManager;
+import com.domain.ui.utility.CucumberReport;
+import com.domain.ui.utility.config.ResourceManager;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 public class Hooks {
     private WebDriver driver;
     private static final Logger log = LoggerFactory.getLogger(Hooks.class);
-    private static com.healthdirect.ui.config.DriverHelper driverHelper = new com.healthdirect.ui.config.DriverHelper();
+    private static DriverHelper driverHelper = new DriverHelper();
     private ResourceManager resourceManager;
 
     public Hooks(ResourceManager resourceManager) {

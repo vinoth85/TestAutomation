@@ -1,4 +1,4 @@
-package com.healthdirect.ui.config;
+package com.domain.ui.config;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

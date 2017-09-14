@@ -1,4 +1,4 @@
-package com.healthdirect.ui.utility.config;
+package com.domain.ui.utility.config;
 
 import lombok.extern.slf4j.Slf4j;
 
