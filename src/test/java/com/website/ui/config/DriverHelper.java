@@ -66,13 +66,13 @@ public class DriverHelper {
             cap.setCapability(ChromeOptions.CAPABILITY, options);
         }else if (BROWSER.equals("ie")){
             cap = DesiredCapabilities.internetExplorer();
-           /* InternetExplorerOptions option = new InternetExplorerOptions();
+            InternetExplorerOptions option = new InternetExplorerOptions();
             cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
             cap.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
             cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
             cap.setJavascriptEnabled(true);
             cap.setCapability("requireWindowFocus", true);
-            cap.setCapability("enablePersistentHover", false); */
+            cap.setCapability("enablePersistentHover", false); 
         }
         else {
             cap = new DesiredCapabilities();
