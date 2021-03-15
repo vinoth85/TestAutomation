@@ -22,9 +22,9 @@ Import the source code as Maven project, run "mvn clean install" to install mave
 
 Use the below Url and command if you are using Bitbucket.
 #stash repository: 
- https://vinoth85@bitbucket.org/vinoth85/uiautomation.git
+ https://github.com/vinoth85/TestAutomation.git
 #To clone the repository
-git clone https://vinoth85@bitbucket.org/vinoth85/uiautomation.git
+git clone https://github.com/vinoth85/TestAutomation.git
 
 Framework structure
 -------------
@@ -60,6 +60,6 @@ Cucumber report
 ---------------
 After executing tests, navigate to below folder to check pretty cucumber html reports, screenshot is captured if scenario marked as failed: 
 
-/Target/domain-cucumber-report
+/Target/cba-cucumber-report
 * feature-overview.html
 * tag-overview.html
